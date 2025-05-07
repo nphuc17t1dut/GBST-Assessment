@@ -1,0 +1,25 @@
+.group-account-name{
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.account-name{
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.data-table{
+    margin-bottom: 20px;
+}
+
+.button-delete {
+    margin-right: 15px;
+}
+
+.group-button {
+    text-align: center;
+}
+
+.account-id {
+    text-align: left;
+}

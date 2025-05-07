@@ -1,0 +1,13 @@
+<template>
+    <lightning-card>
+      <div style="margin: 0 0 24px 20px;">
+        <lightning-button 
+            variant="submit"
+            label="Show Opportunities" 
+            onclick={handleShowModal} 
+        ></lightning-button>
+      </div>
+    </lightning-card>
+
+    <c-opportunity-modal-l-w-c  record-id={recordId} onclosemodal={handleHideModal} if:true={showModal}></c-opportunity-modal-l-w-c>
+</template>
